@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets\images\favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <title>GameHub | Games</title>
+</head>
+
+<body>
+    <section class="top-bar">
+        <div class="left-content">
+            <h2 class="title">GameHub</h2>
+            <ul class="navigation">
+                <li><a href="index.html">Home</a></li>
+                <li><a class="active" href="games.html">Games</a></li>
+                <li><a href="support.html">Support</a></li>
+            </ul>
+        </div>
+        <div class="right-content">
+            <img src="./assets/images/filter.png" alt="" class="filter">
+            <a href="cart.html"><img src="./assets/images/cart.png" alt="" class="cart"></a>
+            <a href="login.html"><img src="./assets/images/help.png" alt="" class="help"></a>
+            <div class="profile-img-box">
+                <a href="profile.html"><img src="./assets/images/profile.jpg" alt=""></a>
+            </div>
+            <img src="./assets/images/menu.png" alt="" class="menu">
+        </div>
+    </section>
+    <section class="main-container">
+        <div class="sidebar">
+            <form action="#">
+                <div class="sidebar-groups">
+                    <h3 class="gm-title">Categories</h3>
+                    <input type="checkbox" id="adventure" name="adventure" value="adventure">
+                    <label for="adventure">Adventure</label><br>
+                    <input type="checkbox" id="action" name="action" value="action">
+                    <label for="action">Action</label><br>
+                    <input type="checkbox" id="fighting" name="fighting" value="fighting">
+                    <label for="animation">Fighting</label><br>
+                    <input type="checkbox" id="shooting" name="shooting" value="shooting">
+                    <label for="comedy">Shooting</label><br>
+                    <input type="checkbox" id="science" name="science" value="science">
+                    <label for="science">Science Fiction</label><br>
+                    <input type="checkbox" id="racing" name="racing" value="racing">
+                    <label for="thriller">Racing</label><br>
+                    <input type="checkbox" id="openworld" name="openworld" value="openworld">
+                    <label for="openworld">Open World</label><br>
+                    <input type="checkbox" id="puzzle" name="puzzle" value="puzzle">
+                    <label for="puzzle">Puzzle</label><br>
+                    <input type="checkbox" id="exploration" name="exploration" value="exploration">
+                    <label for="exploration">Exploration</label><br>
+                </div>
+                <div class="sidebar-groups">
+                    <h3 class="gm-title">Platform</h3>
+                    <input type="checkbox" id="windows" name="windows" value="windows">
+                    <label for="windows">Windows</label><br>
+                    <input type="checkbox" id="mac os" name="mac os" value="mac os">
+                    <label for="mac os">Mac Os</label><br>
+                    <input type="checkbox" id="linux" name="linux" value="linux">
+                    <label for="linux">Linux</label><br>
+                </div>
+                <div class="sidebar-groups">
+                    <h3 class="gm-title">Connection</h3>
+                    <input type="radio" id="online" name="online" value="online">
+                    <label for="online">Online</label><br>
+                    <input type="radio" id="offline" name="offline" value="offline">
+                    <label for="offline">Offline</label><br>
+                </div>
+                <div class="sidebar-groups">
+                    <a href="#" class="btn-l btn">Apply Filters</a>
+                </div>
+            </form>
+        </div>
+        <div class="games-container">
+            <div class="upcoming-img-box">
+                <img src="assets/images/GTA VI.jpg" alt="">
+                <p class="upcoming-title">Upcoming Game</p>
+                <div class="buttons">
+                    <a href="https://www.rockstargames.com/VI" target="_blank" class="btn">Book Now</a>
+                    <a href="https://youtu.be/QdBZY2fkU-0?si=gOF1OljSLtWTyYJU" target="_blank" class="btn-alt btn">Play Trailer</a>
+                </div>
+            </div>
+            <div class="current-games">
+                <div class="current-game">
+                    <div class="gm-img-box">
+                        <img src="assets/images/Minecraft.webp" alt="">
+                    </div>
+                    <h3 class="game-title">Minecraft</h3>
+                    <p class="game-name">Screen : Platinum Addition</p>
+                    <div class="booking">
+                        <h2 class="price">15$</h2>
+                        <a href="https://www.minecraft.net/en-us/download" target="_blank" class="btn">Buy Now</a>
+                    </div>
+                </div>
+                <div class="current-game">
+                    <div class="gm-img-box">
+                        <img src="assets/images/Cyberpunk.jpg" alt="">
+                    </div>
+                    <h3 class="game-title">Cyberpunk</h3>
+                    <p class="game-name">Screen : Gold Addition</p>
+                    <div class="booking">
+                        <h2 class="price">25$</h2>
+                        <a href="https://store.steampowered.com/app/1091500/Cyberpunk_2077/"  target="_blank" class="btn">Buy Now</a>
+                    </div>
+                </div>
+                <div class="current-game">
+                    <div class="gm-img-box">
+                        <img src="assets/images/Forza5.jpg" alt="Forza Horizon 5">
+                    </div>
+                    <h3 class="game-title">Forza Horizon 5</h3>
+                    <p class="game-name">Screen : Silver Addition</p>
+                    <div class="booking">
+                        <h2 class="price">20$</h2>
+                        <a href="https://store.steampowered.com/app/1551360/Forza_Horizon_5/" target="_blank" class="btn">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
