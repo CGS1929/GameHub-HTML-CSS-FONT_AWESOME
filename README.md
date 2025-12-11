@@ -2,11 +2,6 @@
 
 A simple, responsive landing site showcasing upcoming, new and recommended games — built with HTML, CSS and Font Awesome icons.
 
-## 🚀 Demo  
-Check it live at: https://game-hub-html-css-font-awesome.vercel.app/
-
----
-
 ## 🧩 About The Project
 
 GameHub is a static website that displays a curated list of games under three categories — “Upcoming”, “New”, and “Best”.  
